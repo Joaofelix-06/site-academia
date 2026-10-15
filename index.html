@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>[NOME DA ACADEMIA] | Academia e treinamento personalizado em [BAIRRO]</title>
+<meta name="description" content="Treinamento, orientação e acompanhamento individual em [BAIRRO, CIDADE]. Agende sua aula experimental.">
+<meta property="og:title" content="[NOME DA ACADEMIA] | Treinamento personalizado">
+<meta property="og:description" content="Conheça as modalidades e planos e fale com a equipe pelo WhatsApp.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,500;0,800;1,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/components/buttons.css">
+<link rel="stylesheet" href="assets/css/components/placeholders.css">
+<link rel="stylesheet" href="assets/css/components/toast.css">
+<link rel="stylesheet" href="assets/css/layout/header.css">
+<link rel="stylesheet" href="assets/css/sections/hero.css">
+<link rel="stylesheet" href="assets/css/sections/diffs.css">
+<link rel="stylesheet" href="assets/css/sections/modalidades.css">
+<link rel="stylesheet" href="assets/css/sections/planos.css">
+<link rel="stylesheet" href="assets/css/sections/about.css">
+<link rel="stylesheet" href="assets/css/sections/steps.css">
+<link rel="stylesheet" href="assets/css/sections/quotes.css">
+<link rel="stylesheet" href="assets/css/sections/cta.css">
+<link rel="stylesheet" href="assets/css/sections/faq.css">
+<link rel="stylesheet" href="assets/css/sections/contact.css">
+<link rel="stylesheet" href="assets/css/layout/footer.css">
+</head>
+<body>
+
+<div class="topbar" id="topbar" data-section="topbar">Agende sua aula experimental</div>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#inicio" data-brand>[Nome da marca]</a>
+    <nav id="menu" aria-label="Navegação principal">
+      <ul>
+        <li><a href="#modalidades">Modalidades</a></li>
+        <li><a href="#planos">Planos</a></li>
+        <li><a href="#sobre">Equipe</a></li>
+        <li><a href="#faq">Dúvidas</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <a class="btn btn-dark" data-wa data-msg="Olá! Gostaria de agendar uma avaliação.">Agendar avaliação</a>
+    </nav>
+    <a class="btn btn-dark" data-wa data-msg="Olá! Gostaria de agendar uma avaliação.">Agendar avaliação</a>
+    <button class="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="inicio">
+  <section class="hero" aria-labelledby="h1">
+    <div class="ph g2" data-img="hero" data-label="Foto principal (desktop 1920x1080)" role="img" aria-label="Aluno treinando em ambiente de academia"></div>
+    <div class="wrap">
+      <h1 id="h1">Seu próximo nível começa aqui</h1>
+      <p>Treinamento, orientação e acompanhamento para transformar sua rotina em uma jornada de evolução.</p>
+      <div class="row">
+        <a class="btn btn-light" href="#planos">Conheça nossos planos</a>
+        <a class="btn btn-line" data-wa data-msg="Olá! Gostaria de falar com um personal.">Fale com um personal</a>
+      </div>
+      <small data-cfg="location">[Bairro, Cidade]</small>
+    </div>
+  </section>
+
+  <section class="diffs" aria-label="Diferenciais" data-section="diffs">
+    <div class="wrap"><ul>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg><div><b>Acompanhamento individual</b><span>Orientação próxima em cada treino.</span></div></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/></svg><div><b>Treino por objetivo</b><span>Planejado para a sua meta.</span></div></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 9v6M7 6v12M17 6v12M21 9v6M7 12h10"/></svg><div><b>Ambiente equipado</b><span>[Descreva sua estrutura real]</span></div></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><b>Horários flexíveis</b><span>[Confirme seus horários]</span></div></li>
+    </ul></div>
+  </section>
+
+  <section id="modalidades" data-section="modalidades" aria-labelledby="t-mod">
+    <div class="wrap">
+      <div class="head"><h2 id="t-mod">Modalidades</h2><p>Escolha a atividade que combina com a sua rotina.</p></div>
+      <div class="cards3">
+        <a class="mod" data-wa data-msg="Olá! Quero saber mais sobre musculação e hipertrofia.">
+          <div class="ph g1" data-img="mod1" data-label="Foto: musculação"></div><div class="t"><h3>Musculação</h3><p>Força e hipertrofia com orientação.</p></div></a>
+        <a class="mod" data-wa data-msg="Olá! Quero saber mais sobre treinamento funcional.">
+          <div class="ph g2" data-img="mod2" data-label="Foto: funcional"></div><div class="t"><h3>Funcional</h3><p>Condicionamento e mobilidade.</p></div></a>
+        <a class="mod" data-wa data-msg="Olá! Quero saber mais sobre personal training.">
+          <div class="ph g4" data-img="mod3" data-label="Foto: personal"></div><div class="t"><h3>Personal training</h3><p>Sessões individuais sob medida.</p></div></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="planos" class="planos" data-section="planos" aria-labelledby="t-pl">
+    <div class="wrap">
+      <div class="head"><h2 id="t-pl">Planos e acompanhamento</h2><p>Valores e condições são confirmados diretamente com a equipe.</p></div>
+      <div class="cards4">
+        <article class="plan"><div class="ph g3" data-img="plan1" data-label="Foto"></div><div class="b"><h3>Plano Essencial</h3><p>[Descrição do plano]</p><ul><li>[Benefício 1]</li><li>[Benefício 2]</li></ul><a class="btn btn-dark" data-wa data-msg="Olá! Quero informações sobre o Plano Essencial.">Consultar plano</a></div></article>
+        <article class="plan"><div class="ph g1" data-img="plan2" data-label="Foto"></div><div class="b"><h3>Plano Performance</h3><p>[Descrição do plano]</p><ul><li>[Benefício 1]</li><li>[Benefício 2]</li></ul><a class="btn btn-dark" data-wa data-msg="Olá! Quero informações sobre o Plano Performance.">Consultar plano</a></div></article>
+        <article class="plan"><div class="ph g4" data-img="plan3" data-label="Foto"></div><div class="b"><h3>Acompanhamento personalizado</h3><p>[Descrição do serviço]</p><ul><li>[Benefício 1]</li><li>[Benefício 2]</li></ul><a class="btn btn-dark" data-wa data-msg="Olá! Quero informações sobre o acompanhamento personalizado.">Solicitar informações</a></div></article>
+        <article class="plan"><div class="ph g3" data-img="plan4" data-label="Foto"></div><div class="b"><h3>Consultoria de treinamento</h3><p>[Descrição do serviço]</p><ul><li>[Benefício 1]</li><li>[Benefício 2]</li></ul><a class="btn btn-dark" data-wa data-msg="Olá! Quero informações sobre a consultoria de treinamento.">Solicitar informações</a></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" data-section="sobre" aria-labelledby="t-sob">
+    <div class="wrap about">
+      <div class="ph g3" data-img="about" data-label="Foto do profissional ou do espaço (4:5)" role="img" aria-label="Foto do profissional ou do espaço da academia"></div>
+      <div class="txt">
+        <h2 id="t-sob">Quem cuida do seu treino</h2>
+        <p>[Apresente em poucas linhas o profissional ou a academia: abordagem de treino, filosofia de trabalho e o que torna o atendimento diferente.]</p>
+        <dl>
+          <div><dt>Especialidades</dt><dd>[Ex.: hipertrofia, emagrecimento]</dd></div>
+          <div><dt>Formação</dt><dd>[CREF e qualificações verificadas]</dd></div>
+          <div><dt>Ambiente</dt><dd>[Estrutura e equipamentos]</dd></div>
+        </dl>
+        <div><a class="btn btn-out" data-wa data-msg="Olá! Gostaria de conhecer o espaço e a equipe.">Conhecer de perto</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="metodo" data-section="metodo" style="padding-top:0" aria-labelledby="t-met">
+    <div class="wrap">
+      <div class="head"><h2 id="t-met">Como funciona</h2><p>Do primeiro contato ao acompanhamento, em quatro passos. Ajuste ao que você realmente oferece.</p></div>
+      <ol class="steps">
+        <li><h3>Conversa inicial</h3><p>Você conta seus objetivos e sua rotina.</p></li>
+        <li><h3>Levantamento</h3><p>Entendemos suas necessidades e limitações.</p></li>
+        <li><h3>Plano de treino</h3><p>Definimos a modalidade e a frequência ideais.</p></li>
+        <li><h3>Acompanhamento</h3><p>Ajustes ao longo do processo.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Desativada até existirem depoimentos reais e autorizados: remova "depoimentos" de CONFIG.hide -->
+  <section id="depoimentos" data-section="depoimentos" class="planos" aria-labelledby="t-dep">
+    <div class="wrap">
+      <div class="head"><h2 id="t-dep">Experiências de alunos</h2></div>
+      <div class="quotes">
+        <blockquote>[Depoimento real e autorizado]<cite>[Nome autorizado]</cite></blockquote>
+        <blockquote>[Depoimento real e autorizado]<cite>[Nome autorizado]</cite></blockquote>
+        <blockquote>[Depoimento real e autorizado]<cite>[Nome autorizado]</cite></blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" data-section="cta" aria-labelledby="t-cta">
+    <div class="wrap">
+      <h2 id="t-cta">Pronto para começar sua próxima fase?</h2>
+      <p>Conheça as opções de treinamento e encontre a modalidade mais adequada aos seus objetivos.</p>
+      <a class="btn btn-light" data-wa>Falar com a equipe</a>
+    </div>
+  </section>
+
+  <section id="faq" data-section="faq" aria-labelledby="t-faq">
+    <div class="wrap">
+      <div class="head"><h2 id="t-faq">Perguntas frequentes</h2></div>
+      <div class="faq">
+        <details><summary>Como funciona a primeira aula?</summary><p>[Descreva como é a aula experimental, se houver.]</p></details>
+        <details><summary>Quais modalidades estão disponíveis?</summary><p>[Liste as modalidades oferecidas.]</p></details>
+        <details><summary>Como posso conhecer os planos?</summary><p>Fale com a equipe pelo WhatsApp e receba as opções e valores atualizados.</p></details>
+        <details><summary>Como funciona o acompanhamento personalizado?</summary><p>[Explique frequência, formato e canais de acompanhamento.]</p></details>
+        <details><summary>Como posso agendar um horário?</summary><p>Clique em “Agendar avaliação” para conversar pelo WhatsApp. [Confirme o processo real.]</p></details>
+        <details><summary>Onde a academia está localizada?</summary><p data-cfg="address">[Endereço]</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" data-section="contato" class="planos" aria-labelledby="t-con">
+    <div class="wrap contact">
+      <div><h2 id="t-con">Venha treinar</h2><p style="color:var(--muted);margin:14px 0 24px;max-width:36ch">O primeiro contato é pelo WhatsApp.</p><a class="btn btn-dark" data-wa>Chamar no WhatsApp</a></div>
+      <ul>
+        <li><span>Endereço</span><span data-cfg="address">[Endereço]</span></li>
+        <li><span>Horários</span><span data-cfg="hours">[Horários]</span></li>
+        <li><span>Instagram</span><span id="ig" class="todo">[Instagram]</span></li>
+        <li><span>E-mail</span><span id="em" class="todo">[E-mail]</span></li>
+        <li><span>Mapa</span><span id="mp" class="todo">[Link do mapa]</span></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div><a class="brand" href="#inicio" data-brand>[Nome da marca]</a><p>Treinamento e acompanhamento em <span data-cfg="location">[Bairro, Cidade]</span>.</p></div>
+      <div><h3>Navegação</h3><ul><li><a href="#inicio">Início</a></li><li><a href="#planos">Planos</a></li><li><a href="#sobre">Equipe</a></li><li><a href="#faq">Dúvidas</a></li></ul></div>
+      <div><h3>Modalidades</h3><ul><li><a href="#modalidades">Musculação</a></li><li><a href="#modalidades">Funcional</a></li><li><a href="#modalidades">Personal training</a></li></ul></div>
+      <div><h3>Contato</h3><ul><li><a data-wa>WhatsApp</a></li><li><a href="#contato">Endereço e horários</a></li></ul></div>
+    </div>
+    <div class="copy">© <span id="yr"></span> <span data-brand>[Nome da marca]</span>. Todos os direitos reservados.</div>
+  </div>
+</footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/js/config.js" defer></script>
+<script src="assets/js/utils.js" defer></script>
+<script src="assets/js/modules/content.js" defer></script>
+<script src="assets/js/modules/whatsapp.js" defer></script>
+<script src="assets/js/modules/menu.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+/* Seção: planos */
+.cards4{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:var(--gap)}
+.plan{display:flex;flex-direction:column;background:var(--bg);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.plan .ph{aspect-ratio:4/3}
+.plan .b{display:flex;flex-direction:column;flex:1;padding:22px}
+.plan p{color:var(--muted);font-size:.92rem;margin:8px 0 14px}
+.plan ul{margin:0 0 22px;padding:0;list-style:none;font-size:.9rem;display:grid;gap:8px}
+.plan li{padding-left:22px;position:relative}
+.plan li::before{content:"";position:absolute;left:2px;top:.55em;width:10px;height:5px;border-left:2px solid var(--accent);border-bottom:2px solid var(--accent);transform:rotate(-45deg)}
+.plan .btn{margin-top:auto}
+.price{font:800 1.3rem var(--font-display);margin-bottom:14px}

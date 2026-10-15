@@ -1,0 +1,4 @@
+/* Seção: cta */
+.cta{background:var(--accent);color:var(--on-accent);text-align:center}
+.cta h2{font-size:clamp(2rem,5vw,3.8rem);max-width:18ch;margin:0 auto 16px}
+.cta p{max-width:46ch;margin:0 auto 30px;opacity:.92}

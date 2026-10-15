@@ -1,0 +1,13 @@
+/* Design tokens: altere aqui cores, fontes, raios e espaçamentos */
+:root{
+  /* ===== DESIGN TOKENS: altere aqui para mudar a identidade ===== */
+  --accent:#2540ff; --on-accent:#fff;
+  --bg:#fff; --fg:#111; --muted:#5d6166; --line:#e3e4e6; --soft:#f3f4f5;
+  --font-display:"Archivo","Arial Black",Impact,sans-serif;
+  --font-body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --radius:10px; --max:1240px; --gap:clamp(12px,1.6vw,20px); --pad:clamp(20px,4.5vw,46px);
+  --space:clamp(56px,9vw,112px); --ease:.25s ease;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#101113;--fg:#f2f2f3;--muted:#a3a7ad;--line:#2a2c30;--soft:#191a1d}}
+:root[data-theme="dark"]{--bg:#101113;--fg:#f2f2f3;--muted:#a3a7ad;--line:#2a2c30;--soft:#191a1d}

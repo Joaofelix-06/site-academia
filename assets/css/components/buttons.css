@@ -1,0 +1,11 @@
+/* Botões */
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 28px;border-radius:999px;border:2px solid transparent;font:600 .8rem/1 var(--font-body);letter-spacing:.09em;text-transform:uppercase;text-decoration:none;cursor:pointer;transition:transform var(--ease),background var(--ease),color var(--ease),border-color var(--ease)}
+.btn:active{transform:scale(.97)}
+.btn-dark{background:var(--fg);color:var(--bg)}
+.btn-dark:hover{background:var(--accent);color:var(--on-accent)}
+.btn-light{background:#fff;color:#111}
+.btn-light:hover{background:var(--accent);color:var(--on-accent)}
+.btn-line{border-color:currentColor;color:#fff}
+.btn-line:hover{background:#fff;color:#111}
+.btn-out{border-color:var(--fg);color:var(--fg)}
+.btn-out:hover{background:var(--fg);color:var(--bg)}

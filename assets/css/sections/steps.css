@@ -1,0 +1,5 @@
+/* Seção: steps */
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:var(--gap);counter-reset:s}
+.steps li{counter-increment:s;border-top:3px solid var(--fg);padding-top:20px}
+.steps li::before{content:counter(s);display:block;font:800 2.6rem/1 var(--font-display);color:var(--accent);margin-bottom:14px}
+.steps h3{margin-bottom:8px}.steps p{color:var(--muted);font-size:.92rem}
